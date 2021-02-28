@@ -1,0 +1,87 @@
+Protecting Our River README
+For help, contact Miroslava Munguia Ramos(mnmungui@ucla.edu) or Rachel Meyer (rameyer@ucsc.edu) or report an issue here in Github.
+
+This repository will grow as we add new data and analyses.
+
+Current metabarcode markers used: 
+Vert12S \ Riaz et al., 2011 (https://doi.org/10.1093/nar/gkr732) \ F: TAGAACAGGCTCCTCTAG \ R: TTAGATACCCCACTATGC
+18S \  Amaral-Zettler et al. 2009 and Stoek et al. 2010  (http://doi.org/10.1371/journal.pone.0006372)\ Euk1391F: GTACACACCGCCCGTC \ EukBR: TGATCCTTCTGCAGGTTCACCTAC
+16S \ Parada and Appriil primers modified from Caporaso et al 2011 (http://doi.org/10.1111/1462-2920.13023) \ 515F (Parada): GTGYCAGCMGCCGCGGTAA \ 806R (Apprill): GACTACNVGGGTWTCTAAT
+PITS \ Chen et al., 2010 (https://doi.org/10.1371/journal.pone.0008613) \ S2F: ATGCGATACTTGGTGTGAAT \ S3R: GACGCTTCTCCAGACTACAAT
+FITS \ White et al., 1990; Epp et al., 2012 (https://doi.org/10.1111/j.1365-294X.2012.05537.x) \ ITS5 F: GGAAGTAAAAGTCGTAACAAGG \ 5.8S_R: CAAGAGATCCGTTGTTGAAAGTT
+CO1 \ Leray et al., 2013; Folmer et al., 1994 (https://doi.org/10.1186/1742-9994-10-34) \ mlCOIintF: GWACWGGWTGAACWGTWTAYCCYCC \ jgHCO2198: TAIACYTCIGGRTGICCRAARAAYCA
+
+Foundational files:
+Metadata: POUR_Round1_2020_06_01_2020_09_15_WITHSTATS.csv
+
+Metadata explanation: 
+name
+latitude
+longitude
+GPS_Precision
+Bottom = concrete channel or soft bottom
+LA River Site = sampling location name
+Placed_Sample_Gen = whether tributary or main river
+Placed_Sampled_Detailed = description of river section sampled whether pool/wash/river/creek/stream/reserve
+Substrate = sediment or water (DB is drip bottle, PN is plankton net)
+Site_Gen_Detailed = combination of LA River site, place sampled general, and detailed river characteristic (previous three variables)
+alpha_PITS_observed = observed number of unique taxa for the metabarcode specified
+alpha_FITS_observed = observed number of unique taxa for the metabarcode specified
+alpha_16S_observed = observed number of unique taxa for the metabarcode specified
+alpha_18S_observed = observed number of unique taxa for the metabarcode specified
+alpha_CO1_observed = observed number of unique taxa for the metabarcode specified
+alpha_Vert12S_observed = observed number of unique taxa for the metabarcode specified
+bio01 = bioclim  Annual Mean Temperature
+bio02 = bioclim Mean Diurnal Range (Mean of monthly (max temp - min temp)) 
+bio03 = bioclim  Isothermality (BIO2/BIO7) (×100)
+bio04 = bioclim Temperature Seasonality (standard deviation ×100) 
+bio05 = bioclim  Max Temperature of Warmest Month
+bio06 = bioclim Min Temperature of Coldest Month 
+bio07 = bioclim   Temperature Annual Range (BIO5-BIO6)
+bio08 = bioclim  Mean Temperature of Wettest Quarter
+bio09 = bioclim   Mean Temperature of Driest Quarter
+bio10 = bioclim  Mean Temperature of Warmest Quarter
+bio11 = bioclim  Mean Temperature of Coldest Quarter
+bio12 = bioclim  Annual Precipitation
+bio13 = bioclim  Precipitation of Wettest Month
+bio14 = bioclim  Precipitation of Driest Month
+bio15 = bioclim  Precipitation Seasonality (Coefficient of Variation)
+bio16 = bioclim  Precipitation of Wettest Quarter
+bio17 = bioclim  Precipitation of Driest Quarter
+bio18 = bioclim  Precipitation of Warmest Quarter
+bio19 = bioclim  Precipitation of Coldest Quarter
+grtgroup = USGS predicted soil great groups at 250 m
+soil pH in H20 = OpenLandMap Soil pH in H2O
+soil organic carbon = OpenLandMap Soil organic carbon content
+soil sand = OpenLandMap Soil sand
+soil clay = OpenLandMap Soil clay
+elevation = USGS National Elevation Dataset 1/3 arc-second Elevation of sampling site
+slope = USGS rate of change of elevation for each digital elevation model (DEM) cell
+aspect = USGS direction of slope
+NDVI  Landsat 8 NDVI dataset Normalized Difference Vegetation Index in 32 days period
+EVI  Landsat 8 EVI dataset
+greenness = Annual Greenest Pixel in the year of 2017
+landcover = National Land Cover Database 2011 landcover code
+impervious = Percent of the pixel covered by developed impervious surface
+percent_tree_cover = Percent of the pixel that's covered by tree canopy
+NBRT = Normalized Burn Ratio Thermal (NBRT) index in 32 days period
+B1 = Sentinel-2 spectral band 1 (Wavelength: 443.9nm (S2A) / 442.3nm (S2B); Description: Aerosols)
+B2 = Sentinel-2 spectral band 2 (Wavelength: 945nm (S2A) / 943.2nm (S2B); Description: Blue)
+B3 = Sentinel-2 spectral band 3 (Wavelength: 945nm (S2A) / 943.2nm (S2B); Description: Green)
+B4 = Sentinel-2 spectral band 4 (Wavelength: 664.5nm (S2A) / 665nm (S2B); Description: Red)
+B5 = Sentinel-2 spectral band 5 (Wavelength: 945nm (S2A) / 943.2nm (S2B); Description: Vegetation red edge)
+B6 = Sentinel-2 spectral band 6 (Wavelength: 740.2nm (S2A) / 739.1nm (S2B); Description: Vegetation red edge)
+B7 = Sentinel-2 spectral band 7 (Wavelength: 945nm (S2A) / 943.2nm (S2B); Description: Vegetation red edge)
+B8 = Sentinel-2 spectral band 8 (Wavelength: 945nm (S2A) / 943.2nm (S2B); Description: NIR)
+B8A = Sentinel-2 spectral band 8A (Wavelength: 945nm (S2A) / 943.2nm (S2B); Description: Narrow NIR)
+B9 Sentinel-2 spectral band 9 (Wavelength: 945nm (S2A) / 943.2nm (S2B); Description: Water vapor)
+B10 = Sentinel-2 spectral band 10 (Wavelength: 1373.5nm (S2A) / 1376.9nm (S2B); Description: SWIR Cirrus)
+B11 = Sentinel-2 spectral band 11 (Wavelength: 1613.7nm (S2A) / 1610.4nm (S2B); Description: SWIR 1)
+B12 = Sentinel-2 spectral band 12 (Wavelength: 945nm (S2A) / 943.2nm (S2B); Description: SWIR)
+Plankton_tow_net_end_Latitude
+Plankton_tow_net_end_Longitude
+Plankton_tow_net_end_Precision
+Habitat_description = details of how terrestrial or aquatic the sampling site is, best guess as to how frequently submerged the site is
+Depth = depth below surface where sample was collected
+Environmental_feature_type = CALeDNA category of environment 
+Image_file = name to connect the photograph taken in Kobo webform to sample
