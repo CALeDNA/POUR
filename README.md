@@ -1,5 +1,6 @@
+![POUR_1_art](https://user-images.githubusercontent.com/20959582/109489775-34f48a80-7a3c-11eb-9ee0-3dc252badba0.jpg)
 # POUR
-[POUR-1-art.jpg](https://postimg.cc/ts7CFNr6)
+
 **---Our Mission---**
 To create a community to monitor and protect the biodiversity of the L.A. River and its tributaries.
 
