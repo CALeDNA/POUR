@@ -1,5 +1,5 @@
 # POUR
-![Image of Heron](https://drive.google.com/file/d/1z2vmqxQx22O-RpHCsSEDF6bYgyrkunta/view?usp=sharing)
+[POUR-1-art.jpg](https://postimg.cc/ts7CFNr6)
 **---Our Mission---**
 To create a community to monitor and protect the biodiversity of the L.A. River and its tributaries.
 
