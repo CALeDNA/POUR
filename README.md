@@ -15,8 +15,7 @@ Engage the community by sharing activities, interpretation of data, stories, and
 ---Research Plan---
 We are sampling the LA River three times in the course of a year in the following framework:
 
-10 sediment samples and 4 water samples collected at each site
-Along ~100m transect
+10 sediment samples and 4 water samples collected along a 100m transect at each site:
 Sediment collected every ~10m
 Water collected every ~50m 
 3 time periods:
