@@ -14,6 +14,10 @@ CO1 \ Leray et al., 2013; Folmer et al., 1994 (https://doi.org/10.1186/1742-9994
 Foundational files:
 Metadata: POUR_Round1_2020_06_01_2020_09_15_WITHSTATS.csv
 
+*Detailed.txt files that have the original ASVs along with the Bayesian confidence scores for each hierarchical level of taxonomic classification. We ran these separately for the first 96 samples and the second batch of ~59 samples so each marker has two corresponding files containing its ASVs. In time we will provide these, merged, probably when we run everything together from the entire three timepoints of the project.
+
+POUR1_all_physeq_[MARKER]m.txt files are the taxonomy tables from ROUND 1 with columns as samples and row as taxa. Units are total DNA reads per taxon per sample.
+
 Metadata explanation: 
 name
 latitude
